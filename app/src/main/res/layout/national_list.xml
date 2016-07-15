@@ -13,10 +13,6 @@
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
         android:divider="@android:color/transparent"
-        android:id="@+id/main_list"
-        app:layout_constraintLeft_toLeftOf="@+id/content_list"
-        app:layout_constraintTop_toTopOf="@+id/content_list"
-        app:layout_constraintRight_toRightOf="@+id/content_list"
-        app:layout_constraintBottom_toBottomOf="@+id/content_list" />
+        android:id="@+id/national_listview" />
 
 </android.support.constraint.ConstraintLayout>
